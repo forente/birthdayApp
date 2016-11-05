@@ -5,21 +5,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.richardcamara.firstapp.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bir_party"
+        android:scaleType="centerCrop"/>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday, Chris " />
+        android:text="Happy Birthday, Chris "
+        android:textSize="36dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="From: Richard " />
+        android:text="From: Richard "
+        android:textSize="36dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bir_party"/>
 
 
 </RelativeLayout>
